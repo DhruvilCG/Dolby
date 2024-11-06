@@ -1,0 +1,544 @@
+html , body {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    background-color: #13141c;
+    color: white;
+    font-family: AvenirNext-DemiBold,Arial,Helvetica,sans-serif ;
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    /* top: 0% ;
+    z-index: 1000;
+    scale: 1 1 ; */
+}
+
+@keyframes navbar {
+    to {scale: 1 1 ;}
+}
+
+.bgvideo {
+    width: 100%;
+    height: 100%;
+}
+
+.heroVideo {
+    width: 98.7vw ;
+    min-width: 90vw;
+    max-width: 100vw;
+    height: 80vh;
+    min-height: 80vh;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+.posision {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+}
+
+.posision > h1 {
+    width: 100%;
+    font-size: 4.5rem;
+}
+
+.posision > button {
+    width: 20%;
+    height: 9vh;
+    background-color: #3e44fe;
+    font-weight: 800;
+    border-radius: 40px;
+    color: white;
+}
+
+.options {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    column-gap: 35px;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.options > p {
+    color: #717276;
+}
+
+.bg1 {
+    margin-top: 90px ;
+    width: 100%;
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+}
+
+.bg1 > img {
+    width: 96%;
+    height: 100%;
+}
+
+#simple {
+    width: 40%;
+}
+
+.bold {
+    margin-top: 0px;
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text1 {
+    position: absolute;
+    top: 124%;
+    left: 65px;
+}
+
+.text1 > .bold {
+    font-weight: 600 ;
+}
+
+#simple {
+    line-height: 1.5;
+    font-size: large;
+}
+
+.videotext1 {
+    margin-top: 150px;
+    width: 100%;
+    height: 59vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.videotext1 > video {
+    width: 50%;
+}
+
+.videotext1 > div {
+    width: 30%;
+}
+
+.whitepart {
+    margin-top: 150px;
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+}
+
+.whitetext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.whitetext > div {
+    width: 73%;
+    font-size: 39px;
+    font-weight: 600;
+    margin-top: 100px;
+    color: #252319;
+}
+
+.flex {
+    display: flex;
+}
+
+.whitetext > div > img {
+    width: 4vw;
+    height: 10vh;
+}
+
+.flex1 > p {
+    color: #717276;
+    margin-left: 230px;
+}
+
+
+.videotext2 {
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.text2 {
+    width: 30%;
+    margin-top: 100px;
+}
+
+.videotext2 > video {
+    width: 52%;
+    height: 69vh;
+}
+
+.small {
+    line-height: 1.5;
+    font-size: large;
+}
+
+.photo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.photo > img {
+    width: 96%;
+    height: 100%;
+}
+
+.musicsection {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 55vh;
+    margin-top: 100px;
+}
+
+.musicsection > div > p {
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.musicsection > div > button {
+    height: 8vh;
+    width: 40%;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold ;
+    color: white;
+    background-color: #3e44fe;
+} 
+
+.musicsection > div > img {
+    width: 120%;
+    display: flex;
+    margin-left: -100px;
+    margin-top:45px;
+}
+
+.bg2 {
+    background-color: #424248;
+    width: 25%;
+    height: 50vh;
+    margin-bottom: 4vh;
+}
+
+.div {
+    width: 30%;
+    margin-top: 50px;
+}
+
+.opportunities {
+    width: 100%;
+    height: 77vh;
+    background-color: white;
+}
+
+.opportunities > div > p {
+    color: #252319;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 550;   
+}
+
+.p1 {
+    padding-top: 60px;
+}
+
+.opportunitiesgrid {
+    margin-top: 75px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    justify-items: center;
+    color: black ;
+    row-gap: 10px;
+}
+
+.text11 {
+    font-size: larger;
+    font-weight: 550;
+}
+
+.text13 {
+    margin-top: 10px;
+}
+
+#singleCSS1 {
+    margin-right: 84px;
+}
+
+#singleCSS2 {
+    margin-right: 57px;
+}
+
+.arrowgrid {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    justify-items: center;
+    width: 100%;
+    height: 10vh;
+    margin-top: 30px;
+}
+
+.a1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 4vw;
+    height: 8vh;
+    background-color: #3e44fe;
+}
+
+.a1 > img {
+    width: 2vw;
+}
+
+#a11 {
+    margin-right: 65px;
+}
+
+#a12 {
+    margin-right: 130px;
+}
+
+#a13 {
+    margin-right: 100px;
+}
+
+.getstarted {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 2%;
+    width: 96%;
+    height: 63vh;
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+
+.getstarted > p {
+    font-weight: 500; 
+    font-size: 30px;
+    padding-top: 100px;
+    margin-left: 60px;
+    letter-spacing: 2px;
+}
+
+.getstarted > a {
+    font-size: 15px;
+    color: white;
+    margin-left: 20px;
+}
+
+.a2 {
+    margin-top: 100px;
+}
+
+.a2:hover {
+    font-size: 15px;
+    color: #ae3fff ;
+}
+
+.staytuned {
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button {
+    width: 10vw;
+    height: 8vh;
+    background-color: #3e44fe;
+    border-radius: 30px;
+    color: white;
+    font-weight: 550;
+    margin-top: 30px;
+}
+
+.div11 {
+    width: 22%;
+}
+
+.bold11 {
+    font-size:30px;
+    font-weight: 550;
+}
+
+.simple11 {
+    font-size: small;
+}
+
+.div12 {
+    width: 30vw;
+    height: 60vh;
+    background-color: #e5e5e5;
+}
+
+.image {
+    width: 30vw;
+    margin-top: 65px;
+    margin-left: -85px;
+}
+
+.aboutUs {
+    width: 100%;
+    height: 85vh;
+    background-color: #13141c;
+}
+
+.germanyapp {
+    display: flex;
+    justify-content: center;
+    column-gap: 6px;
+    margin-top: 38px;
+}
+
+.germanyapp > p {
+    font-size: 20px;
+}
+
+.germanyapp > a {
+    font-size: 20px ;
+    margin-top: 19px;
+    color: white;
+}
+
+.newsAndUpdate >input {
+    background-color: #13141c;
+    border: 1px solid #666666;
+    height: 7vh;
+    width: 24vw;
+    font-size: 15px;
+    margin-left: 140px;
+    color: white;
+}
+
+.newsAndUpdate {
+    display: flex ;
+    margin-left: 110px;
+    margin-top: 22vh;
+}
+
+.newsAndUpdate > p {
+    font-size: 19px;
+    opacity: 0.5;
+}
+
+.newsAndUpdate > a {
+    width: 10vw;
+    height:7vh;
+    margin-left: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    background-color: #3e44fe;
+    font-size: 17px;
+    font-weight: 550;
+    text-decoration: none;
+}       
+
+hr {
+    margin-top: 20px;
+    opacity: 0.3;
+    background-color: white; 
+    width: 84%;
+}
+
+.aboutUsGrid {
+    margin-left: 110px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 20% 16% 16% 16% 32%;
+    grid-template-rows: 11vh 6vh 13.5vh ;
+    font-size: 19px;
+    opacity: 0.9;
+}
+
+.aboutUsGrid > img {
+    grid-row: span 3;
+    width: 8vw;
+    align-self: center; 
+}
+
+.aboutUsGrid > a  {
+    color: white;
+    text-decoration: none;
+    align-self: center;
+}
+
+.light1 {
+    grid-row: span 2;
+    font-size: 13px;
+    letter-spacing: 1px;
+    opacity: 0.5;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.imgInGrid {
+    align-self: center ;
+}
+
+.imgInGrid > a > img {
+    width: 2vw;
+    margin-left: 6px;
+}
+
+.aboutUsGrid1 {
+    display: grid;
+    margin-left: 30px;
+    grid-template-columns: 20% 16% 17% 25% 20%;
+    grid-template-rows: 30% 20%;
+}
+
+.policy {
+    grid-column: span 4;
+}
+
+.aboutUsGrid1 {
+    width: 80%;
+}
+
+.aboutUsGrid1 > a {
+    font-size: 17px;
+    opacity: 0.5;
+    margin-left: 90px;
+    color: white;
+    text-decoration: none;
+}
+
+.aboutUsGrid1 > select{
+    width: 33vh;
+    height: 6vh;
+    align-self: center;
+    margin-top: 30px;
+    background-color: #13141c;
+    color: white;
+}
+
+#selector {
+    grid-row: span 2;
+}
